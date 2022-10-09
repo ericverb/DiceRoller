@@ -92,9 +92,9 @@ string SixSidedDice(int dice1, int dice2)
 
 string UserSidedDice(int dice1, int dice2)
 {
-    int xSidedResults = dice1 + dice2;
+    int customSidedDice = dice1 + dice2;
 
-    switch (xSidedResults)
+    switch (customSidedDice)
     {
         case > 0 and <= 20:
             string beginner =
@@ -106,7 +106,7 @@ string UserSidedDice(int dice1, int dice2)
             return rookieDiceRoller;
 
         case > 50:
-            string masterDiceRoller = $"You are a Master Dice Roller and have won the game! {Environment.NewLine}";
+            string masterDiceRoller = $"You are a Master Dice Roller and have WON the game! {Environment.NewLine}";
             return masterDiceRoller;
     }
 
