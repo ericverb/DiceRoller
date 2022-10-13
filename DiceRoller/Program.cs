@@ -64,12 +64,12 @@ string SixSidedDice(int dice1, int dice2)
         case 2:
 
             string snakeEyes = $"Snake Eyes: Two 1s!{Environment.NewLine}";
-            snakeEyes = snakeEyes + "Craps you rolled a total of 2!";
+            snakeEyes += "Craps you rolled a total of 2!";
             return snakeEyes;
 
         case 3:
             string aceDeuce = $"Ace Deuce: A 1 and 2!{Environment.NewLine}";
-            aceDeuce = aceDeuce + "Craps you rolled a total of 3!";
+            aceDeuce += "Craps you rolled a total of 3!";
             return aceDeuce;
 
         case 7:
